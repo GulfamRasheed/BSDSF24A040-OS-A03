@@ -148,7 +148,7 @@ int shell_help(char **args) {
     printf("  help        - Show this help\n");
     printf("  jobs        - List background jobs\n");
     printf("  history     - Show command history\n");
-    printf("  set         - Show shell variables\n");
+    printf("  set         - Show all shell variables (use VAR=value to set one)\n");
     printf("Special features:\n");
     printf("  VAR=value   - Set a shell variable\n");
     printf("  $VAR        - Expand a variable\n");
